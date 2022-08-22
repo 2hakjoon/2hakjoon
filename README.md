@@ -6,3 +6,5 @@
 
 ## 💻 My Blog
 <a href = "https://2hakjoon-mindmap.tistory.com/"> <img alt="Tistory" src ="https://img.shields.io/badge/Tistory-white.svg?&style=for-the-badge"/>
+
+[![HakJoon's GitHub stats](https://github-readme-stats.vercel.app/api?username=2hakjoon)](https://github.com/anuraghazra/github-readme-stats)
