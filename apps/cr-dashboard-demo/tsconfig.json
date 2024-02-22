@@ -20,7 +20,8 @@
 
     "paths": {
       "@/*": ["./*"],
-      "@2hakjoon/component": ["../../packages/design-system/src"]
+      "@2hakjoon/component": ["../../packages/design-system/src"],
+      "@2hakjoon/util": ["../../packages/cr-dashboard-demo/src"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

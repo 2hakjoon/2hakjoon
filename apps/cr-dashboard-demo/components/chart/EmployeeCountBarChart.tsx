@@ -12,15 +12,15 @@ import React from "react";
 // no chart will be rendered.
 // website examples showcase many properties,
 // you'll often use just a few of them.
-export const RecipientCountBarChart = ({ data /* see data tab */ }: any) => (
+export const EmployeeCountBarChart = ({ data /* see data tab */ }: any) => (
   <ResponsiveBar
-    keys={["수급중", "대기중", "퇴소"]}
+    keys={["근무중", "대기중", "퇴사"]}
     indexBy="일자"
     margin={{ top: 50, right: 130, bottom: 50, left: 60 }}
     padding={0.3}
     valueScale={{ type: "linear" }}
     indexScale={{ type: "band", round: true }}
-    colors={{ scheme: "nivo" }}
+    colors={{ scheme: "accent" }}
     borderColor={{
       from: "color",
       modifiers: [["darker", 1.6]],
@@ -40,7 +40,7 @@ export const RecipientCountBarChart = ({ data /* see data tab */ }: any) => (
       tickSize: 5,
       tickPadding: 5,
       tickRotation: 0,
-      legend: "수급자 수",
+      legend: "직원 수",
       legendPosition: "middle",
       legendOffset: -40,
       truncateTickAt: 0,
@@ -82,9 +82,9 @@ export const RecipientCountBarChart = ({ data /* see data tab */ }: any) => (
     }
     data={Array.from({ length: 7 }).map((_, index) => ({
       일자: dayjs().subtract(index, "day").format("YYYY-MM-DD"),
-      수급중: Random.getNumberInRange(1800, 2000),
+      근무중: Random.getNumberInRange(1800, 2000),
       대기중: Random.getNumberInRange(100, 200),
-      퇴소: Random.getNumberInRange(100, 200),
+      퇴사: Random.getNumberInRange(100, 200),
     }))}
   />
 );

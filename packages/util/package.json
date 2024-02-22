@@ -1,0 +1,11 @@
+{
+  "name": "@2hakjoon/util",
+  "version": "0.0.0",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  }
+}
