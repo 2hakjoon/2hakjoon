@@ -2,9 +2,10 @@
   "name": "2hakjoon",
   "packageManager": "yarn@4.1.0",
   "scripts": {
-    "ds": "yarn workspace @monorepo/design-system",
-    "react": "yarn workspace @monorepo/react",
-    "next": "yarn workspace @monorepo/next"
+    "ds": "yarn workspace @2hakjoon/design-system",
+    "react": "yarn workspace @2hakjoon/react",
+    "next": "yarn workspace @2hakjoon/next",
+    "cr-dashboard-demo": "yarn workspace @2hakjoon/cr-dashboard-demo"
   },
   "workspaces": [
     "packages/*",

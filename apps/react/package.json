@@ -1,11 +1,11 @@
 {
-  "name": "@monorepo/react",
+  "name": "@2hakjoon/react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@2hakjoon/design-system": "workspace:^",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
-    "@monorepo/design-system": "workspace:^",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",

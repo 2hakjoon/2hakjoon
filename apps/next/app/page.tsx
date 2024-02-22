@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { Button2 } from "@monorepo/component";
+import { Button2 } from "@2hakjoon/component";
 
 export default function Home() {
   return (

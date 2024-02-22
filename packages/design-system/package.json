@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/design-system",
+  "name": "@2hakjoon/design-system",
   "version": "0.0.0",
   "devDependencies": {
     "@emotion/react": "^11.11.3",
