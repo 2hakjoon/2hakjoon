@@ -9,7 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nivo/bar": "^0.84.0",
+    "@nivo/core": "^0.84.0",
+    "@nivo/tooltip": "^0.84.0",
     "next": "14.1.0",
+    "prop-types": "^15.8.1",
     "react": "^18",
     "react-dom": "^18"
   },

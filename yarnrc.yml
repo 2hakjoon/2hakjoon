@@ -1,0 +1,9 @@
+packageExtensions:
+  "@nivo/core@*":
+    dependencies:
+      prop-types: "*"
+      "@nivo/tooltip": "*"
+  "@nivo/legends@*":
+    dependencies:
+      d3-scale: "*"
+      "@nivo/colors": "*"

@@ -13,6 +13,7 @@
   "peerDependencies": {
     "@emotion/react": "11.x",
     "@emotion/styled": "11.x",
+    "next": "14.1.0",
     "react": "18.x",
     "react-dom": "18.x"
   },
